@@ -22,6 +22,7 @@
 *.app
 
 #CMake files
+CMakeLists.txt
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
@@ -44,3 +45,13 @@ CTestTestfile.cmake
 /cmake-build-debug
 #Clion files
 /.idea
+
+#Mac files
+.DS_store
+
+#CodeBlock files
+*.cbp
+*.layout
+*.depend
+/bin
+/obj
